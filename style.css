@@ -1,0 +1,587 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header starts */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 45%;
+    height: 100%;
+    background: url('https://wallpapers.com/images/hd/design-black-background-1920-x-1080-o3yd8dvwst5nrom1.jpg');
+    background-size: cover;
+}
+
+.left h1 {
+    text-align: center;
+    font-family: corbel;
+    font-size: 2.3rem;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.text {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-family: corbel;
+    top: 50%;
+    width: 83%;
+    color: whitesmoke;
+}
+
+.text h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    padding-right: 150px;
+}
+
+.text h3 {
+    font-size: 4.4rem;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+
+.text span {
+    font-size: 2rem;
+    border: 1px solid transparent;
+    margin-right: 60px;
+    font-family: corbel;
+    font-weight: bold;
+    color: black;
+    background: yellow;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.text span:hover {
+    box-shadow: 5px 5px 0px white;
+}
+
+.icons {
+    height: 100%;
+    width: 55%;
+    background: url('https://i.pinimg.com/originals/cf/98/5a/cf985ae8e6bd159345f08a83870bf5b4.png');
+    background-size: cover;
+}
+
+.icons ul {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding-top: 30px;
+    list-style-type: none;
+}
+
+.icons ul li {
+    /* border: 1px solid; */
+    border-bottom: 2px solid transparent;
+}
+
+.icons ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: white;
+    font-family: corbel;
+    font-size: 1.5rem;
+}
+
+.icons ul li:hover {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 5px;
+}
+
+/* Header ends */
+
+/* about myself starts */
+.myself {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background: url('https://static.vecteezy.com/system/resources/previews/011/075/129/non_2x/abstract-white-and-gray-color-modern-design-background-with-geometric-shape-illustration-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-inline: 120px;
+}
+
+.img img {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    border-radius: 5%;
+    margin-right: 50px;
+}
+
+.content {
+    width: 700px;
+}
+
+.content h1 {
+    font-family: corbel;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.811);
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.content p {
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(60, 56, 56);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* about myself ends */
+
+/* my work starts */
+.myWork {
+    justify-content: center;
+    text-align: center;
+    background: url('https://wallpapers.com/images/hd/white-abstract-background-uvcu2fu2gzdmj0pk.jpg');
+    background-size: cover;
+    padding-inline: 100px;
+
+}
+
+.heading h1 {
+    padding-top: 50px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: verdana;
+}
+
+.heading p {
+    font-family: corbel;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-left: 60px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.941);
+}
+
+.icons-myWork ul {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-block: 50px;
+    list-style-type: none;
+}
+
+.icons-myWork ul li a {
+    color: black;
+    text-decoration: none;
+    padding-inline: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: corbel;
+}
+
+.icons-myWork ul li a:hover {
+    border-bottom: 8px solid yellow;
+    padding-bottom: 5px;
+}
+
+.container-my {
+    display: grid;
+    padding-inline: 100px;
+}
+
+.item img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    margin: 2px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button {
+    margin: 50px;
+    padding: 15px 50px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.806);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* my work ends */
+
+/* subs page starts */
+.subs {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('https://static.vecteezy.com/system/resources/previews/025/799/242/non_2x/linkedin-banner-with-abstract-low-poly-background-free-photo.jpg');
+    background-size: cover;
+}
+
+.subs-text h1 {
+    font-family: corbel;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-right: 50px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.811);
+
+}
+
+.subs-text h2 {
+    font-family: corbel;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.subs-text p {
+    font-family: corbel;
+    font-weight: bold;
+    width: 600px;
+    font-size: 1.3rem;
+}
+
+.email {
+    padding: 15px 70px;
+    border: transparent;
+    outline: 0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: corbel;
+    font-size: 1.3rem;
+}
+
+.subs-btn {
+    margin: 50px;
+    padding: 15px 50px;
+    font-family: corbel;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: yellow;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subs-btn:hover {
+    color: white;
+
+}
+
+/* media query */
+@media screen and (max-width: 1024px) {
+    .left h1 {
+        font-size: 2rem;
+    }
+
+    .text h2 {
+        font-size: 3.5rem;
+    }
+
+    .text h3 {
+        font-size: 4rem;
+    }
+
+    .text span {
+        font-size: 1.8rem;
+    }
+
+    .myself {
+        padding-inline: 100px;
+    }
+
+    .img,
+    img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+        text-transform: capitalize;
+        letter-spacing: 0.8px;
+    }
+
+    .heading h1 {
+        font-size: 2.6rem;
+    }
+
+    .heading p {
+        font-size: 1.5rem;
+    }
+
+    .container-my {
+        padding-inline: 50px;
+    }
+
+    .item img {
+        height: 200px;
+        width: 230px;
+    }
+
+    button {
+        padding: 15px 40px;
+    }
+
+    .subs-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .subs-text h2 {
+        font-size: 3.5rem;
+    }
+
+    .subs-text p {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+    .email {
+        padding: 10px 40px;
+    }
+
+    .subs-btn {
+        padding: 15px 40px;
+    }
+
+}
+
+/* media 768 */
+
+@media screen and (max-width: 768px) {
+
+    .left h1 {
+        font-size: 1.7rem;
+    }
+
+    .text h2 {
+        font-size: 3rem;
+    }
+
+    .text h3 {
+        font-size: 3.8rem;
+    }
+
+    .text span {
+        font-size: 1.8rem;
+        padding: 8px 20px;
+    }
+
+    .icons ul {
+        padding-top: 20px;
+        margin-left: 0;
+    }
+
+    .icons ul li a {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .myself {
+        padding-inline: 30px;
+        height: 70vh;
+    }
+
+    .img,
+    img {
+        height: 270px;
+        width: 270px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .content p {
+        font-size: small;
+        letter-spacing: 0.1px;
+    }
+
+    .myWork {
+        padding-inline: 50px;
+    }
+
+    .heading h1 {
+        font-size: 2.4rem;
+    }
+
+    .heading p {
+        font-size: 1.6rem;
+    }
+
+    .icons-myWork ul {
+        padding-block: 40px;
+    }
+
+    .icons-myWork ul li a {
+        font-size: 1.3rem;
+        padding-inline: 30px;
+    }
+
+    .container-my {
+        padding-inline: 30px;
+    }
+
+    .item img {
+        height: 150px;
+        width: 150px;
+    }
+
+    button {
+        margin: 30px;
+        font-size: 14px;
+    }
+
+    .subs-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .subs-text h2 {
+        font-size: 3rem;
+    }
+
+    .subs-text p {
+        font-size: 1rem;
+    }
+
+    .email {
+        padding: 10px 40px;
+    }
+
+    .subs-btn {
+        margin: 10px;
+        padding: 13px 40px;
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 80vh;
+    }
+
+    .left {
+        background: rgba(0, 0, 0, 0.897);
+        width: 3%;
+        display: n;
+    }
+
+    .left h1 {
+        display: none;
+    }
+
+    .text {
+        top: 40%;
+    }
+
+    .text h2 {
+        font-size: 2.1rem;
+        padding-right: 100px;
+    }
+
+    .text h3 {
+        font-size: 2.5rem;
+    }
+
+    .text span {
+        font-size: 1.1rem;
+        padding: 8px 15px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .icons ul {
+        padding-top: 20px;
+    }
+
+    .icons ul {
+        padding-top: 20px;
+    }
+    .icons ul li a{
+        font-size: 1rem;
+        
+        font-weight: normal;
+    }
+
+    .myself {
+        height: 50vh;
+    }
+
+    .myself img {
+        height: 150px;
+        width: 150px;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .myself .content {
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .content h1 {
+        text-align: left;
+    }
+
+    .content p {
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+
+    .myWork .icons-myWork nav ul li a {
+        padding-inline: 15px;
+        font-size: 0.9rem;
+    }
+
+    .myWork .btn button {
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+
+    .subs-text {
+        text-align: center;
+    }
+
+    .subs-text p {
+        width: 350px;
+        margin-left: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+}
